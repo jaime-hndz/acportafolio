@@ -7,7 +7,7 @@ export const AppRouter = () => {
   return (
     <>
       <Router
-        basename={import.meta.env.DEV ? "/" : "/jportfolio/"}
+        basename={import.meta.env.DEV ? "/" : "/acportafolio/"}
         future={{
           v7_fetcherPersist: true,
           v7_normalizeFormMethod: true,

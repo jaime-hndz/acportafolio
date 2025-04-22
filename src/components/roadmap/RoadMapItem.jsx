@@ -16,7 +16,7 @@ const RoadMapItem = ({ week, number }) => {
         </h3>
         <hr />
         {week.images.length > 0 ? (
-            <Carousel  className="w-full" ref={carouselRef}>
+            <Carousel autoplay  className="w-full" ref={carouselRef}>
               {week.images.map((i) => (
                 <div
                   key={i}
@@ -36,7 +36,7 @@ const RoadMapItem = ({ week, number }) => {
           {week.files.map((file, index) => (
             <li key={index}>
               <a
-                href={`src/resources/evidences/week${number+1}/${file}.pdf`}
+                href={`https://github.com/jaime-hndz/acportafolio/tree/main/src/resources/evidences/week${number+1}/${file}.pdf`}
                 target="_blank"
                 className="hover:text-orange-400 transition ease-in-out cursor-none"
               >
