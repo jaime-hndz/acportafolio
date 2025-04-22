@@ -1,0 +1,41 @@
+The humans.txt file explains the team, technology,
+and graphic assets behind this site humanstxt.org.
+
+_______________________________________________________________________________
+
+DEVELOPER
+
+Jaime R. Hernandez
+
+https://www.linkedin.com/in/jaime-rafael-hernandez-746a14203 
+https://github.com/jaime-hndz
+
+_______________________________________________________________________________
+
+THANKS
+
+Hamish Williams
+https://hamishw.com/
+
+Mees Verberne
+https://meesverberne.com
+
+_______________________________________________________________________________
+
+TECHNOLOGY
+
+React
+ViteJs
+Tailwind
+Ant Design
+Framer Motion
+
+_______________________________________________________________________________
+
+FONTS
+
+Playfair Display
+Noto Sans JP
+Montserrat
+Bodoni
+Arimo
