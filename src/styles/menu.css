@@ -1,0 +1,14 @@
+.logo {
+    width: 60px;
+    height: 60px;
+    background-image: url('../resources/logo.svg');
+    background-size: contain; /* Ajusta la imagen al tamaño del contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center;
+    margin: auto;
+    transition: background-image 0.3s ease; /* Animación opcional para suavizar el cambio */
+}
+
+.logo:hover {
+    background-image: url('../resources/mage.svg'); /* Cambia la imagen al hacer hover */
+}

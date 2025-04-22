@@ -1,0 +1,9 @@
+
+.boton{
+    background-color: skyblue !important;
+    padding: 1.5rem;
+    border-radius: 0;
+    cursor: none !important;
+    color: white;
+    font-size: 24px;
+  }

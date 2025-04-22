@@ -1,0 +1,301 @@
+.container{
+    max-width: 1000px;
+    min-height: 700px;
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.col-left{
+    flex: 2;
+    border-radius: 2em !important;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+
+.col-right{
+    flex: 1;
+    border-radius: 2em !important;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+
+.row {
+    flex: 1;
+    border-radius: 2em !important;
+
+}
+
+.left1 {
+    flex: 1;
+}
+.right1 {
+    flex: 2;
+}
+
+.row1{
+    display: flex;
+    border: none;
+    gap: 1em
+}
+
+.row3{
+    display: flex;
+    border: none;
+    gap: 1em
+}
+
+.row-col{
+    flex: 1;
+    border-radius: 2em;
+    opacity: 0;
+    animation: fadeIn 0.5s ease forwards;
+    animation-delay: var(--animation-delay, 0s);
+}
+
+.row-col2{
+    flex: 3;
+    border-radius: 2em;
+    opacity: 0;
+    animation: fadeIn 0.5s ease forwards;
+    animation-delay: var(--animation-delay, 0s);
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px); /* Efecto de desplazamiento */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.bifrost-preview {
+    background: linear-gradient(to bottom, transparent, rgb(255, 255, 255)), url('/src/resources/projects/bifrost/neo-bifrost-preview.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.bifrost1 {
+    background: url('/src/resources/evidences/week1-1.png');
+}
+
+.bifrost2 {
+    background: url('/src/resources/projects/bifrost/neo-bifrost2.gif');
+
+}
+
+.bifrost3 {
+    background: url('/src/resources/projects/bifrost/bifrost3.png');
+
+}
+
+.bifrost4 {
+    background: url('/src/resources/projects/bifrost/bifrost4.png');
+
+}
+
+.bifrost5 {
+    background: url('/src/resources/projects/bifrost/bifrost5.png');
+
+}
+
+.sinewave-preview {
+    background: linear-gradient(to bottom, transparent, rgb(214 211 209)), url('/src/resources/projects/sinewave/sinewave-preview.gif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.sinewave1 {
+    background: url('/src/resources/projects/sinewave/sinewave1.png');
+
+}
+.sinewave2 {
+    background: url('/src/resources/projects/sinewave/sinewave2.png');
+
+}
+.sinewave3 {
+    background: url('/src/resources/projects/sinewave/sinewave3.png');
+
+}
+
+.barna-preview {
+    background: linear-gradient(to bottom, transparent, rgb(42, 105, 153)), url('/src/resources/projects/barna/barna-preview.gif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+.barna1 {
+    background: url('/src/resources/projects/barna/barna1.png');
+}
+
+.barna2 {
+    background: url('/src/resources/projects/barna/barna2.png');
+}
+
+.barna3 {
+    background: url('/src/resources/projects/barna/barna3.png');
+}
+
+.barna4 {
+    background: url('/src/resources/projects/barna/barna4.png');
+}
+
+.invoice1 {
+    background: url('/src/resources/projects/invoice/invoice1.gif');
+}
+
+
+.portfolio-preview {
+    background: linear-gradient(to bottom, transparent, black), url('/src/resources/projects/portfolio/portfolio-preview.gif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.portfolio1 {
+    background: url('/src/resources/projects/portfolio/portfolio1.png');
+}
+
+.portfolio2 {
+    background: url('/src/resources/projects/portfolio/portfolio.jpg');
+}
+
+.portfolio3 {
+    background: url('/src/resources/projects/portfolio/portfolio3.png');
+}
+
+.portfolio4 {
+    background: url('/src/resources/projects/portfolio/portfolio2.png');
+}
+
+.transporte-preview {
+    background: linear-gradient(to top, transparent, rgb(2 132 199)), url('/src/resources/projects/transporte/transporte-preview.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.transporte1 {
+    background: url('/src/resources/projects/transporte/transporte1.png');
+}
+.transporte2 {
+    background: url('/src/resources/projects/transporte/transporte2.png');
+}
+.transporte3 {
+    background: url('/src/resources/projects/transporte/transporte3.png');
+}
+.transporte4 {
+    background: url('/src/resources/projects/transporte/transporte4.png');
+}
+.transporte5 {
+    background: url('/src/resources/projects/transporte/transporte5.png');
+}
+.transporte6 {
+    background: url('/src/resources/projects/transporte/transporte6.png');
+}
+
+.hospitalCash-preview {
+    background: linear-gradient(to top, transparent, rgb(204 251 241)), url('/src/resources/projects/hospitalCash/preview.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.hospital1 {
+    background: url('/src/resources/projects/hospitalCash/preview.png');
+}
+.hospital2 {
+    background: url('/src/resources/projects/hospitalCash/hospital1.png');
+}
+.hospital3 {
+    background: url('/src/resources/projects/hospitalCash/hospital2.png');
+}
+
+.membretes-preview {
+    background: linear-gradient(to top, transparent, black), url('/src/resources/projects/membretes/preview.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+.week1-1 {
+    background: url('/src/resources/evidences/week1/week1-1.png');
+}
+.week1-2 {
+    background: url('/src/resources/evidences/week1/week1-2.png');
+}
+.week2-1 {
+    background: url('/src/resources/evidences/week2/week2-1.png');
+}
+.week2-2 {
+    background: url('/src/resources/evidences/week2/week2-2.png');
+}
+.week2-3 {
+    background: url('/src/resources/evidences/week2/week2-3.png');
+}
+.week3-1 {
+    background: url('/src/resources/evidences/week3/week3-1.png');
+}
+.week3-2 {
+    background: url('/src/resources/evidences/week3/week3-2.png');
+}
+.week4-1 {
+    background: url('/src/resources/evidences/week4/week4-1.png');
+}
+.week4-2 {
+    background: url('/src/resources/evidences/week4/week4-2.png');
+}
+.week5-1 {
+    background: url('/src/resources/evidences/week5/week5-1.png');
+}
+.week6-1 {
+    background: url('/src/resources/evidences/week6/week6-1.png');
+}
+.week6-2 {
+    background: url('/src/resources/evidences/week6/week6-2.png');
+}
+.week7-1 {
+    background: url('/src/resources/evidences/week7/week7-1.png');
+}
+.week7-2 {
+    background: url('/src/resources/evidences/week7/week7-2.png');
+}
+.week7-3 {
+    background: url('/src/resources/evidences/week7/week7-3.png');
+}
+.week7-4 {
+    background: url('/src/resources/evidences/week7/week7-4.png');
+}
+.week8-1 {
+    background: url('/src/resources/evidences/week8/week8-1.png');
+}
+.week8-2 {
+    background: url('/src/resources/evidences/week8/week8-2.png');
+}
+.week9-1 {
+    background: url('/src/resources/evidences/week9/week9-1.png');
+}
+.week9-2 {
+    background: url('/src/resources/evidences/week9/week9-2.jpg');
+}
+.week10-1 {
+    background: url('/src/resources/evidences/week10/week10-1.png');
+}
+.week10-2 {
+    background: url('/src/resources/evidences/week10/week10-2.png');
+}

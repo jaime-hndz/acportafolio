@@ -1,0 +1,15 @@
+{
+    "language" : "EN",
+    "title": "Software Development",
+    "aboutTitle": "About me",
+    "projectsTitle": "Projects",
+    "contactTitle": "Contact",
+    "aboutText": "Developer with over 3 years of experience creating projects from scratch, covering both backend and frontend. Passionate about tackling challenges that enhance my skills and push me to surpass my own limits.",
+    "goToProjects": "See more",
+    "contactMessage": "Contact me!!",
+    "captcha": "I'm not a robot",
+    "seeMail": "See email",
+    "readMore": "Read more...",
+    "readLess": "Read less.",
+    "crafted": "Crafted by yours truly"
+}

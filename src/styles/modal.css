@@ -1,0 +1,14 @@
+
+
+.ant-modal-content {
+    background-color: rgb(15 23 42) !important;
+    border-radius: 0 !important;
+}
+
+.ant-modal-header {
+    background-color: rgb(15 23 42) !important;
+}
+
+.ant-modal-title {
+    color:  white !important;
+}

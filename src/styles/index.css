@@ -1,0 +1,11 @@
+@import './home.css';
+@import './menu.css';
+@import './base.css';
+@import './form.css';
+@import './bento.css';
+@import './modal.css';
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
