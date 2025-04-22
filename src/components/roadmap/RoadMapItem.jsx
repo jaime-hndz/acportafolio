@@ -38,6 +38,7 @@ const RoadMapItem = ({ week, number }) => {
               <a
                 href={`src/resources/evidences/week${number+1}/${file}.pdf`}
                 target="_blank"
+                className="hover:text-orange-400 transition ease-in-out cursor-none"
               >
                 {file}
               </a>
