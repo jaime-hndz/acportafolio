@@ -85,7 +85,7 @@ export const roadmapData = [
     files: ["JaimeHernándezACPrComandosS8", "JaimeHernándezComandosNVS8L"],
   },
   {
-    title: "Emsamblar",
+    title: "Ensamblar",
     images: ["week9-1", "week9-2"],
     description: "En ese semana ayude a un amigo a ensamblar su computadora y anoté los componentes.",
     files: [
